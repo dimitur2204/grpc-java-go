@@ -20,6 +20,8 @@ public class GrpcClient {
 				.setLastName("Nizamov")
 				.build());
 
+		System.out.println(helloResponse.getGreeting());
+
 		channel.shutdown();
 	}
 }

@@ -13,7 +13,7 @@ type server struct {
 }
 
     func (s *server) Hello(ctx context.Context, in *pb.HelloRequest) (*pb.HelloResponse, error) {
-        greeting := "Hello, " + in.FirstName + " " + in.LastName + "!"
+        greeting := "Hello from Go, " + in.FirstName + " " + in.LastName + "!"
  return &pb.HelloResponse{Greeting: greeting}, nil
 }
 
