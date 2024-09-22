@@ -1,5 +1,6 @@
 syntax = "proto3";
 option java_multiple_files = true;
+option go_package = "grpc-go/proto";
 
 package via.dk;
 

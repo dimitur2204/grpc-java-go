@@ -17,10 +17,9 @@ public class GrpcClient {
 
 		HelloResponse helloResponse = stub.hello(HelloRequest.newBuilder()
 				.setFirstName("Dimitar")
-				.setLastName("gRPC")
+				.setLastName("Nizamov")
 				.build());
 
-		System.out.println(helloResponse.getGreeting());
 		channel.shutdown();
 	}
 }
