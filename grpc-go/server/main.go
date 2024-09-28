@@ -20,9 +20,8 @@ type server struct {
 func main() {
  lis, err := net.Listen("tcp", ":8080")
  if err != nil {
-  log.Fatalf("failed to listen on port 50051: %v", err)
+  log.Fatalf("failed to listen on port 8080: %v", err)
  }
- log.Printf("gRPC server listening at %v", lis.Addr())
 
  s := grpc.NewServer()
  pb.RegisterHelloServiceServer(s, &server{})

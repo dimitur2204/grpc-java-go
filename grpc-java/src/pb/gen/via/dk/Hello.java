@@ -37,7 +37,8 @@ public final class Hello {
       "est\022\021\n\tfirstName\030\001 \001(\t\022\020\n\010lastName\030\002 \001(\t" +
       "\"!\n\rHelloResponse\022\020\n\010greeting\030\001 \001(\t2D\n\014H" +
       "elloService\0224\n\005hello\022\024.via.dk.HelloReque" +
-      "st\032\025.via.dk.HelloResponseB\002P\001b\006proto3"
+      "st\032\025.via.dk.HelloResponseB\021P\001Z\rgrpc-go/p" +
+      "rotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
